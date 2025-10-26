@@ -69,34 +69,6 @@ AI 提出解决方案（合题）
 
 ---
 
-## 🎯 第一次尝试建议
-
-**最简单的起点：**
-- 将以下最小示例粘贴进 **Loop Prompt**：
-
-```yaml
-CoreGoals:
-    - 高玩家留存率
-    - 高社区和谐度
-CurrentState:
-    - 原版生存 1.20.x，无插件
-```
-  
-- 想看一个完整过程
-    → 查看 README 中的["完整案例"](README.md#完整案例三次迭代示例)
-
----
-
-## 📚 进阶学习路径
-
-1. **Day 1-3：** 理解六大公理 → 阅读 [axioms.md](axioms.md)
-2. **Day 4-7：** 练习 Prompt A/B/C → 使用 [tools/prompts.md](tools/prompts.md)
-3. **Week 2：** 实施一个方案，记录迭代 → 使用 [tools/iteration_template.md](tools/iteration_template.md)
-4. **Week 3：** 验证效果 → 使用 Prompt D
-5. **Week 4+：** 进入下一次迭代，螺旋上升！
-
----
-
 ## 💡 常见问题
 
 **Q: 我需要付费 LLM 吗？**
@@ -123,5 +95,3 @@ A: 可以，但不推荐跳过 **Prompt D（验证）**。没有验证，您无�
 - **报告问题** - [GitHub Issues](../../issues)
 
 ---
-
-**现在就开始您的第一次迭代吧！** 🎮
