@@ -3,12 +3,11 @@
 本目录为推导用理论工具箱：
 
 ```
-knowledge/
+rules/
 ├── README.md
-└── rules/
-    ├── manage_rules.md
-    ├── population_rules.md
-    └── social_rules.md
+├── manage_rules.md
+├── population_rules.md
+└── social_rules.md
 ```
 
 原则：
