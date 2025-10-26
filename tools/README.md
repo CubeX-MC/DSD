@@ -1,3 +1,31 @@
+## Metrics and YAML fields cheat sheet
+
+Use these standardized keys across Prompt A→B→C→D to keep inputs/outputs consistent:
+
+- retention_30d: Percentage of players who return within 30 days.
+- churn_7d: Percentage of players who do not return within 7 days.
+- concurrent_online_peak: Highest concurrent players during the period.
+- avg_concurrent_online: Average concurrent players during the period.
+- conflicts_per_week: Number of significant conflict incidents per week.
+- grief_reports: Number of griefing reports during the period.
+- ban_rate: Percentage of active players banned during the period.
+- appeal_rate: Percentage of bans that receive appeals.
+- onboarding_completion_rate: Percentage of new players completing onboarding/first milestones.
+- k_factor: Viral/referral coefficient derived from invites per active user.
+- tps_avg: Average ticks-per-second (server performance) during peak hours.
+- tps_p95: 95th percentile TPS drop during peak hours.
+- view_distance: Configured server view distance (performance lever/constraint).
+- mobcap_utilization: Estimated share of mob cap consumed by shared farms.
+- queue_time_p95: 95th percentile queue time or wait time for activities.
+- report_to_action_latency: Median time from report to moderator action.
+- build_code_violations: Count of violations against collective building codes.
+- participation_gini: Inequality of contribution/participation (0–1).
+
+Notes:
+- Prefer percentages as decimals (e.g., 0.34 for 34%) unless otherwise stated.
+- Time-based fields should include ISO 8601 or clear units (e.g., minutes).
+- When adding custom metrics, document them here to keep the schema discoverable.
+
 # DSD 工具使用指南
 
 本目录包含使用 DSD 框架的工具和模板。
